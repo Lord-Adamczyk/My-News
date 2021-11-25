@@ -1,0 +1,30 @@
+.main-item {
+  background-color: var(--component-background);
+  border-radius: var(--standard-border-radius);
+  margin: 20px;
+  padding:10px;
+ 
+}
+  
+.header {
+  height: var(--header-height);
+  background-color: var(--color-primary-dark);
+  }
+  
+.app-body {
+  height: calc(100% - var(--header-height));
+  }
+
+.main-data {
+  width: 60%;
+}
+.menu{
+  width:5%;
+} 
+.news-list {
+  width: 20%;
+  overflow: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  }
+  
